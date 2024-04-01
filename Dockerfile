@@ -4,3 +4,4 @@ COPY . /app
 RUN pip install --upgrade pip
 EXPOSE 5000
 CMD ["python""app.py"]
+ENTRYPOINT ["python","myimage"]
